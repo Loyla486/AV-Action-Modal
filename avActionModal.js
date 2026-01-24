@@ -95,10 +95,10 @@ document.addEventListener("DOMContentLoaded", async function () {
             <div style="background: ${avStyles.background}; color: ${avStyles.text}; padding: ${avStyles.padding}; max-width: ${avStyles.maxWidth}; margin: 10% auto; border-radius: 8px; position: relative; text-align: center;">
                 <p style="font-weight: bold; font-family: Arial, sans-serif; font-size: ${avStyles.headlineFontSize}; line-height: ${avStyles.headlineLineHeight};">Attention ${avLocation.stateName} Residents</p>
                 <p style="font-family: Arial, sans-serif; font-size: ${avStyles.medFont}; line-height: 24px;">
-                    Legislators in ${avLocation.stateName} are about to pass a law that could force you to upload government ID and scan your face every time you access adult content.
+                    Legislators in ${avLocation.stateName} are about to pass a law that could force you to upload government ID and/or scan your face every time you access online content, under the guise of 'protecting childern'.
                 </p>
                 <p style="font-family: Arial, sans-serif; font-size: 22px; line-height: 24px; display: ${avStyles.displayText}">
-                    You have a right to privacy online!<br /> And <u>you</u> can help stop this bill if you act now.
+                    You have a right to privacy online!<br /> And <u>you</u> can help stop these bills if you act now.
                 </p>
                 <a href="${avLocation.billLink}" target="_blank" style="display: inline-block; text-decoration: none; padding: 20px; border-radius: 16px; background: ${avStyles.buttonColor}; color: ${avStyles.linkColor}; font-weight: bold; font-family: Arial, sans-serif; font-size: 22px; line-height: 24px;" id="avTakeAction">Tell your representatives to oppose this bill NOW!</a>
                 <p style="font-size: ${avStyles.smallFont}; font-family: Arial, sans-serif; line-height: 20px;">
