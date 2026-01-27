@@ -133,7 +133,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     // Pop modal (or not)
     // if (getAVCookie("av-modal") !== "true") {
     //     const avModalLocation = await getAVModalLocation();
-    //     buildAVModal(avModalLocation);
+    //     buildAVModal(avModalLocation); // Uncomment and set to true to force Undefined.
     //     setAVCookie("av-modal", "true", 365); // Cookie expires in 1 year
     // }
 
