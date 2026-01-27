@@ -98,11 +98,11 @@ document.addEventListener("DOMContentLoaded", async function () {
                     Legislators in ${avLocation.stateName} are about to pass a law that could force you to upload government ID and/or scan your face every time you access online content, under the guise of 'protecting the childern'.
                 </p>
                 <p style="font-family: Arial, sans-serif; font-size: 22px; line-height: 24px; display: ${avStyles.displayText}">
-                    You have a right to privacy online!<br /> And <u>you</u> can help stop these bills if you act now!
+                    You have a right to privacy online!<br /> <i>You</i> can help stop these bills if you act now!
                 </p>
                 <a href="${avLocation.billLink}" target="_blank" style="display: inline-block; text-decoration: none; padding: 20px; border-radius: 16px; background: ${avStyles.buttonColor}; color: ${avStyles.linkColor}; font-weight: bold; font-family: Arial, sans-serif; font-size: 22px; line-height: 24px;" id="avTakeAction">Tell your representatives to oppose this bill NOW!</a>
                 <p style="font-size: ${avStyles.smallFont}; font-family: Arial, sans-serif; line-height: 20px;">
-                    Not in ${avLocation.stateName}? <a href="https://defendonlineprivacy.com/geolocation.php" style="color: ${avStyles.buttonColor};" target="_blank" id="avGeolocationError">Learn more</a> about why you could be affected by this law.
+                    Not in ${avLocation.stateName} or above link not working? <a href="https://defendonlineprivacy.com/geolocation.php" style="color: ${avStyles.buttonColor};" target="_blank" id="avGeolocationError">Learn more</a> about why you could be affected by this law.
                 </p>
                 <span id="avClose" style="position: absolute; top: ${avStyles.closeTop}; right: 15px; font-size: ${avStyles.closeFontSize}; cursor: pointer;">&times;</span>
             </div>`;
